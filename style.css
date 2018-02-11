@@ -1,0 +1,91 @@
+html,body{
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+     background-size: cover;
+     height:100%;
+}
+.container{
+ min-height:100%;
+}
+.footer{
+ height:40px;
+ margin-top:-40px;
+}
+button{
+  margin:auto;
+  display:block;
+  font-size:1.8em;
+  margin-bottom: 50px;
+}
+
+h1{
+  font-family: Lobster;
+  font-size:80px;
+  color:black;
+  text-align:center;
+  margin:50px auto;
+}
+
+.space{
+  height:40px;
+}
+span {
+  font-size: 25px;
+  text-align:center;
+  display:inline-block;
+}
+.col-sm-12 {
+  font-size: 25px;
+  text-align:center;
+  display:inline-block;
+}
+
+.jumbotron{  
+  padding:15px;
+  background-color: white;
+  border-radius: 5pt;
+  z-index:1001;
+  opacity: 0.8;
+  filter: grayscale(0%);
+
+}
+
+#err{
+  text-align:center;
+  font-size:50px;
+  color:#2D3444;
+  margin: 100px auto;
+}
+#pageOne h1{
+  color:#2D3444;
+}
+#pageFour{
+    background-color: rgb(41, 41, 41);
+    padding: 0 50px;
+    padding-bottom: 20px;
+    color: rgb(190, 190, 190);
+}
+#pageFour h1{
+    margin:auto;
+    margin-top: 20px;
+    font-size:25px;
+    color:rgb(190, 190, 190);
+}
+
+#pageFour li{
+    list-style: none;
+    display: inline;
+    margin:auto 15px;
+}
+.social-media a {
+    color: rgb(190, 190, 190);
+    margin:auto 5px;
+  }
+#pageFour h5{
+    font-family: 'Roboto';
+}
+
+#pageFour .col-sm-6 h5{
+text-align: center;
+}

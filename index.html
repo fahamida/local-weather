@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="en" >
+
+<head>
+  <meta charset="UTF-8">
+  <title>Local Weather  updated</title>
+  
+  
+  <link rel='stylesheet prefetch' href='https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/3.3.7/css/bootstrap.min.css'>
+<link rel='stylesheet prefetch' href='https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.0.0-beta.2/css/bootstrap.css'>
+
+      <link rel="stylesheet" href="css/style.css">
+
+  
+</head>
+
+<body>
+
+  <!-- LobsterFont -->
+<link href='https://fonts.googleapis.com/css?family=Lobster' rel='stylesheet'>
+<!-- header-->
+<div class="container">
+ <div class="container-fluid" id="pageOne">
+  <h1> Local Weather </h1>
+   <div class="space"></div>
+  <div class="row">
+    <div class="col-md-4"></div>
+    <div class="col-md-4">
+      <div class="jumbotron">
+        <!-- location -->
+        <div class="row">
+          <div class="col-sm-12"><i class="fas fa-map-marker-alt fa-fw"></i><span id="location"></span></div>
+        </div>
+        <!-- Temperature  -->
+        <div class="row">
+          <div class="col-sm-12"><i class="fas fa-thermometer-quarter fa-fw"></i><span id="temp"></span> </div>
+        </div>
+        <!-- Pressure   -->
+        <div class="row">
+          <div class="col-sm-12"><i class="fas fa-thermometer-three-quarters fa-fw"></i><span id="pressure"></span></div>
+        </div>
+        <!--  wind speed  -->
+        <div class="row">
+          <div class="col-sm-12"><i class="fas fa-location-arrow fa-fw"></i><span id="windSpeed"></span></div>
+        </div>
+        <!--   weather condition -->
+        <div class="row">
+          <div class="col-sm-12">
+<!--             <h3>Condition:</h3> -->
+            <span id="weatherType"></span>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="col-md-4"></div>
+  </div>
+   <div class="space"></div>
+  <div>
+    <button type="button" class="btn-lg btn-default" id="lTemp">°C/°F</button>
+  </div>
+</div> 
+  <div id="err">
+<!--      -->
+  </div>
+</div>
+
+<div class="footer">
+  <div id="pageFour" class="container-fluid">
+  <h1>Connect With Me</h1>
+  <div class="row">
+    <div class="col-lg-4 col-sm-6">
+      <h5>Copyright © Fahamida Haque 2018. All Rights Reserved.</h5>
+    </div>
+    <div class="col-lg-4 col-sm-6">
+
+    </div>
+    <div class="col-lg-4 col-sm-6 social-media text-center">
+
+      <div class="social-media text-center">
+        <a href="mailto:fahamida@fahamida.com" target="_blank" id="github"><i class="far fa-envelope fa-2x"></i></a>
+
+        <a href="https://github.com/fahamida" target="_blank" id="github"><i class="fab fa-github fa-2x"></i></a>
+
+        <a href="https://www.freecodecamp.org/fahamida" target="_blank" id="ffc"><i class="fab fa-free-code-camp fa-2x"></i></a>
+
+        <a href="https://www.linkedin.com/in/fahamida-haque/" target="_blank" id="linkedin"><i class="fab fa-linkedin fa-2x"></i></a>
+
+        <a href="https://codepen.io/fahamida" target="_blank" id="linkedin"><i class="fab fa-codepen fa-2x"></i></a>
+
+      </div>
+    </div>
+
+  </div>
+</div>
+</div>
+  <script src='https://cdnjs.cloudflare.com/ajax/libs/jquery/3.1.1/jquery.min.js'></script>
+<script src='https://use.fontawesome.com/releases/v5.0.2/js/all.js'></script>
+<script src='https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/3.3.7/js/bootstrap.min.js'></script>
+
+  
+
+    <script  src="js/index.js"></script>
+
+
+
+
+</body>
+
+</html>
